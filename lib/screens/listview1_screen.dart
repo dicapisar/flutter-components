@@ -5,7 +5,9 @@ class ListView1Screen extends StatelessWidget {
     'Megaman',
     'Metal Gear',
     'Super Smash',
-    'Final Fantasy'
+    'Final Fantasy',
+    'The legend of Zelda',
+    'Halo'
   ];
 
   const ListView1Screen({Key? key}) : super(key: key);
@@ -24,7 +26,7 @@ class ListView1Screen extends StatelessWidget {
                     leading: const Icon(Icons.accessibility),
                     trailing: const Icon(Icons.arrow_forward_ios_outlined),
                   ))
-              .toList()
+              .toList(),
         ],
       ),
     );
